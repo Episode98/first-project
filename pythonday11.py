@@ -5,7 +5,7 @@ print(type(odd_numbers))
 
 # 집합 컴프리헨션을 사용하여 1~10까지의 제곱수 집합(set) 생성
 squares = {num**2 for num in range(1,11)}
-print("Squares:", squares)
+print("Squares: ", squares)
 print(type(squares))
 
 # 딕셔너리 컴프리헨션을 사용하여 15~25사이의 숫자와 제곱수 쌍의 딕셔너리 생성
